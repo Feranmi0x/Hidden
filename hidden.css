@@ -1,0 +1,27 @@
+body {
+    background-color: blanchedalmond;
+}
+.mainheading {
+    margin-left: 160px;
+    color: black;
+}
+.container {
+    display: flex;
+}
+
+.boxes {
+    border: 2px solid greenyellow;
+    flex-grow: 1;
+    border-radius: 4px;
+    background: transparent;
+    margin: 5px;
+    padding: 5px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}
